@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+# coding: utf-8
+""" Exemplo de herança múltipla. """
+from herois import *
+
+if __name__ == "__main__":
+    MarkRuffalo = Hulk()
+    MarkRuffalo.get_dados()
+    MarkRuffalo.ficar_nervoso()
+    MarkRuffalo.get_dados()
+    MarkRuffalo.vai_pescar()
+    MarkRuffalo.get_dados()
+    print('---------------------------------')
+    RobertDowneyJr = IronMan()
+    RobertDowneyJr.get_dados()
+    RobertDowneyJr.set_altitude(150)
+    RobertDowneyJr.ativar_armadura()
+    RobertDowneyJr.set_altitude(150)
+    RobertDowneyJr.get_dados()
+    RobertDowneyJr.desativar_armadura()
+    RobertDowneyJr.get_dados()
+    print('---------------------------------')
+    ChrisHemsworth = Thor()
+    ChrisHemsworth.get_dados()
+    print('---------------------------------')
+    ScarlettJohansson = ViuvaNegra()
+    ScarlettJohansson.get_dados()
+    print('---------------------------------')
+    ChrisEvans = CapitaoAmerica()
+    ChrisEvans.get_dados()
+    print('---------------------------------')
+    JeremyRenner = Arqueiro()
+    JeremyRenner.get_dados()
+    print('---------------------------------')
+    print(Hulk.__mro__)
+#    print(IronMan.__mro__)
