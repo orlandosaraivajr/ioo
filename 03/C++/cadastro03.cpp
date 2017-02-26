@@ -20,12 +20,12 @@ int x; // Variável de controle
 void mostrar(Pessoa *cad) {
     cout << "-------------------------------------------" << endl;
     for ( x = 0; x < N ; x++) {
-        if (cad[x].sexo == 'F' && cad[x].idade >= 30) {
-            cout << cad[x].nome ;
-            cout << "\t não é elegante revelar a idade de uma mulher. "<< endl;
+        if (cad[x].sexo == 'F' and cad[x].idade >= 30) {
+            cout << cad[x].nome << "  -  ";
+            cout << "não é elegante revelar a idade de uma mulher. "<< endl;
         } else {
-            cout << cad[x].nome << "\t-\t";
-            cout << cad[x].idade << " anos\t-\t"<< cad[x].sexo << endl;
+            cout << cad[x].nome << "  -  ";
+            cout << cad[x].idade << " anos  -  "<< cad[x].sexo << endl;
         }
     }
     cout << "-------------------------------------------" << endl;

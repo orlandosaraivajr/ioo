@@ -3,14 +3,14 @@
 
 class Transporte:
     def mostrar (self):
-        print 'Transporte sendo apresentado'
+        print ('Transporte sendo apresentado')
 
 class Caminhao(Transporte):
     def __init__(self,modelo):
         self.modelo = modelo
 
     def mostrar (self):
-        print 'Caminhão modelo ' + str(self.modelo)
+        print ('Caminhão modelo ' + str(self.modelo))
 
 ford = Caminhao('Ford')
 ford.mostrar()

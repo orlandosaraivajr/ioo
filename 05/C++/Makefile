@@ -5,4 +5,4 @@ All:
 run:
 	./carro
 clean:
-	rm carro *~ *.o
+	rm -rf carro *~ *.o

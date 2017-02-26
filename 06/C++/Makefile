@@ -1,6 +1,6 @@
 IDIR =./includes
 SDIR =./sources
-BIN_NAME = vasoSanitario
+BIN_NAME = CaixaAcoplada
 All:
 	g++ Main.cpp -std=c++11 $(SDIR)/*.cpp -I $(IDIR) -o $(BIN_NAME)
 run:

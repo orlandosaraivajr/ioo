@@ -24,7 +24,7 @@ class Agente
         void mode_on() {
             this->modo_agente = true;
         }
-        void apresentacao()
+        virtual void apresentacao()
         {
             if(this->get_mode()){
                 cout << "AGENTE SMITH !!!!" << endl;

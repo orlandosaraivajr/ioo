@@ -1,3 +1,7 @@
+/*
+Programa:   CaixaAcoplada
+Arquivo:    valvulaAlimentacao.h
+*/
 #ifndef VALVULAALIMENTACAO_H
 #define VALVULAALIMENTACAO_H
 

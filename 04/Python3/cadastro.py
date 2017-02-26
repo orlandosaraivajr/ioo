@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # coding: utf-8
+#
+# Programa: cadastro
 """Cadastro de Pessoa"""
 
 
@@ -41,14 +43,14 @@ for i in range(0, 3):
 
 for PESSOA in PESSOAS:
     PESSOA.mostra()
-'''
-print ('Linha 45 \t' + str(PESSOAS))
-print ('Linha 46 \t' + str(PESSOAS[0]))
-print ('Linha 47 \t' + str(PESSOAS[0].__dict__))
-print ('Linha 48 \t' + str(PESSOAS[0].__dict__.keys()))
-print ('Linha 49 \t' + str(PESSOAS[0].__dict__.values()))
+"""print ('Linha 46 ' + str(PESSOAS))
+print ('Linha 47 ' + str(PESSOAS[0]))
+print ('Linha 48 ' + str(PESSOAS[0].__dict__))
+print ('Linha 49 ' + str(PESSOAS[0].__dict__.keys()))
+print ('Linha 50 ' + str(PESSOAS[0].__dict__.values()))
 PESSOAS[0]._Pessoa__idade = 'BlaBlaBla'
-print ('Linha 51 \t ' + str(PESSOAS[0]._Pessoa__idade))
+print ('Linha 52  ' + str(PESSOAS[0]._Pessoa__idade))
 PESSOAS[0]._Pessoa__apelido = 'Cabeção'
-print ('Linha 53 \t\t' + str(PESSOAS[0].__dict__))
-'''
+print ('Linha 54 ' + str(PESSOAS[0].__dict__))
+
+"""

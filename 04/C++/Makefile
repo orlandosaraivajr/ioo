@@ -6,4 +6,4 @@ All:
 run:
 	./cadastro
 clean:
-	rm cadastroOO cadastro *~ *.o
+	rm -rf cadastroOO cadastro *~ *.o

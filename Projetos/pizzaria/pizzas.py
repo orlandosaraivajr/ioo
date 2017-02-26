@@ -57,7 +57,15 @@ class FrangoCheddar(BasePizza):
         self.ingredient.append('cobertura de batata palha')
         self.ingredient.append('azeitonas graúdas')
         self.ingredient.append('orégano')
+'''
+Sou um professor malvado ? Talvez. 
+Mas preciso saber se você apenas executou o código ou se vai 
+acessar o código e descomentar o método abaixo. :)
+Descomente todos os métodos get_nome(self) das classes-filhas.
 
+    def get_nome(self):
+        return self.nome
+'''
 class FrangoCatupiry(BasePizza):
     def __init__(self):
         self.nome = "Frango com Catupiry "
@@ -68,7 +76,10 @@ class FrangoCatupiry(BasePizza):
         self.ingredient.append('legítimo catupiry')
         self.ingredient.append('azeitonas graúdas')
         self.ingredient.append('orégano')
-
+'''
+    def get_nome(self):
+        return self.nome
+'''
 class FrangoBarbecue(BasePizza):
     def __init__(self):
         self.nome = "Frango com molho Barbecue "
@@ -80,7 +91,10 @@ class FrangoBarbecue(BasePizza):
         self.ingredient.append('molho barbecue')
         self.ingredient.append('azeitonas graúdas')
         self.ingredient.append('orégano')
-
+'''
+    def get_nome(self):
+        return self.nome
+'''
 class PeitoPeru(BasePizza):
     def __init__(self):
         self.nome = "Peito de Peru "
@@ -92,6 +106,10 @@ class PeitoPeru(BasePizza):
         self.ingredient.append('azeitonas graúdas')
         self.ingredient.append('orégano')
 
+'''
+    def get_nome(self):
+        return self.nome
+'''
 class PeitoPeruCatupiry(BasePizza):
     def __init__(self):
         self.nome = "Peito de Peru com Catupiry"
@@ -103,3 +121,7 @@ class PeitoPeruCatupiry(BasePizza):
         self.ingredient.append('legítimo catupiry')
         self.ingredient.append('azeitonas graúdas')
         self.ingredient.append('orégano')
+'''
+    def get_nome(self):
+        return self.nome
+'''

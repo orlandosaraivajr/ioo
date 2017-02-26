@@ -21,7 +21,7 @@ int main() {
 
     pref->apresentacao();
     vered->apresentacao();
-    cout << endl << vered->nome << endl;
+//    cout << endl << vered->nome << endl;
     return 0;
 }
 

@@ -1,3 +1,7 @@
+/*
+Programa:   CaixaAcoplada
+Arquivo:    comportaVedacao.h
+*/
 #ifndef COMPORTAVEDACAO_H
 #define COMPORTAVEDACAO_H
 

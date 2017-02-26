@@ -6,4 +6,4 @@ All:
 	g++ size.cpp -o size
 	g++ Passagem.cpp -o passagem
 clean:
-	rm oiMundo oiMundo2 size soma vinculacao passagem *~ 
+	rm -rf oiMundo oiMundo2 size soma vinculacao passagem *~ 

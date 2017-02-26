@@ -32,5 +32,5 @@ if __name__ == "__main__":
     JeremyRenner = Arqueiro()
     JeremyRenner.get_dados()
     print('---------------------------------')
-    print(Hulk.__mro__)
+#    print(Hulk.__mro__)
 #    print(IronMan.__mro__)

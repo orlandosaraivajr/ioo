@@ -13,4 +13,4 @@ run3:
 run4:
 	./cadastro04
 clean:
-	rm Atribuicao cadastro01  cadastro02  cadastro03 cadastro04 *~ 
+	rm -rf Atribuicao cadastro01  cadastro02  cadastro03 cadastro04 *~ 
