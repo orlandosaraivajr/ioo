@@ -38,7 +38,7 @@ void cadastrar(Pessoa *cad) {
         } while(cad[x].idade < 0 );
 
         /* Validação do Sexo: 1 para Masculino, 2 para Feminino.             */
-         cout<<"Selecione o sexo: \t 1) Masculino \t 2) Feminino\n";
+         cout<<"Selecione o sexo:  1) Masculino  2) Feminino\n";
           cin>> inputSexo;
           switch (inputSexo) {
             case 1:
@@ -60,10 +60,10 @@ void mostrar(Pessoa *cad) {
     for ( x = 0; x < N ; x++) {
         if (cad[x].sexo == 'F' && cad[x].idade >= 30) {
             cout << cad[x].nome ;
-            cout << "\t   não é elegante revelar a idade de uma mulher. "<< endl;
+            cout << "   não é elegante revelar a idade de uma mulher. "<< endl;
         } else {
-            cout << cad[x].nome << "\t-\t";
-            cout << cad[x].idade << " anos\t-\t"<< cad[x].sexo << endl;
+            cout << cad[x].nome << "  -  ";
+            cout << cad[x].idade << " anos  -  "<< cad[x].sexo << endl;
         }
     }
     cout << "-------------------------------------" << endl;

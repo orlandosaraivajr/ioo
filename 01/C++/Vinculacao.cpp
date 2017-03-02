@@ -13,7 +13,7 @@ void funcao1() {
 	*ponteiro2 = numero2;	
 	cout << "Endereço do ponteiro na funcao1: " << &ponteiro2 << endl;
 	cout << "Valor do ponteiro na funcao1: " << *ponteiro2 << endl;
-	cout << "Numero 2: " << numero2 << endl;
+	cout << "Número 2: " << numero2 << endl;
 	numero2 = 4.2;
 	delete ponteiro2;
 	cout << "Valor do ponteiro na funcao1: " << *ponteiro2 << endl;
@@ -29,7 +29,7 @@ int main() {
 	ponteiro = new float;
 	*ponteiro = numero1;
 
-	cout << "Numero 1: " << numero1 << endl;
+	cout << "Número 1: " << numero1 << endl;
 	cout << "Endereço do ponteiro: " << &ponteiro << endl;
 	cout << "Valor do ponteiro: " << *ponteiro << endl;
 
@@ -40,7 +40,7 @@ int main() {
 	cout << "Valor do ponteiro: " << *ponteiro << endl;
 
 	funcao1();
-	cout << "Numero 2: " << numero2 << endl;
+	cout << "Número 2: " << numero2 << endl;
 	delete ponteiro;
 
 	return 0;

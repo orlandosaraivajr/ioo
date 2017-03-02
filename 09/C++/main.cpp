@@ -21,8 +21,8 @@ int main()
     char profissao;
     for(i=0; i<N; i++){
         cout  << "Escolha a profissão: "<< endl;
-        cout  << "1) Empresário \t ";
-        cout  << "2) Professor \t ";
+        cout  << "1) Empresário    ";
+        cout  << "2) Professor    ";
         cout  << "3) Advogado "<< endl;
         cin >> profissao;
         if(profissao == '1'){
